@@ -3,13 +3,21 @@
 This Go template lets you get started quickly with a simple one-page playground.
 
 ```go runnable
-package main
-
-import "fmt"
-
-func main() {
-    fmt.Println("Hello World!")
-}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ma Page Web</title>
+</head>
+<body>
+    <h1>Titre de la page</h1>
+    <p>Ceci est un paragraphe de texte.</p>
+    <ul>
+        <li>Élément 1</li>
+        <li>Élément 2</li>
+        <li>Élément 3</li>
+    </ul>
+</body>
+</html>
 ```
 
 # Advanced usage
